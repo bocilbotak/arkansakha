@@ -1,0 +1,36 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: #f0f8ff;
+  margin: 0;
+  padding: 20px;
+}
+.game-container {
+  max-width: 500px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+img {
+  width: 200px;
+  height: auto;
+  margin: 20px 0;
+}
+button.choice-btn {
+  display: block;
+  margin: 10px auto;
+  padding: 10px 20px;
+  width: 80%;
+  max-width: 300px;
+  font-size: 16px;
+}
+#feedback {
+  font-weight: bold;
+  height: 1.5em;
+}
+#score {
+  margin-top: 20px;
+  font-size: 18px;
+}
